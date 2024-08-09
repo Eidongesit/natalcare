@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natal_Care</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel ="stylesheet" href="bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=comic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+     
+  </head>
+  <body>
+
+    <!---navand header-->
+    <nav class=" navbar navbar-expand-lg">
+        <div class="container">
+              <a class="navbar-brand  " href="#">
+                <img src="images/natalogo.jpg" height="35" width="35" class="d-inline-block align-top " alt="Logo">
+                <h3 class="text-success comic-neue-bold">Natal Care</h3>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                      <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto" >
+                      <li class="nav-item">
+                        <a class="nav-link text-success comic-neue-regular" data-bs-toggle="modal" data-bs-target=" #selfservice" style="cursor: pointer;"> Signin/Signup</a>
+                       <button id="logoutButton" class=" nav-link comic-neue-regular">
+                        <i class="bi bi-box-arrow-right"></i> Sign-out
+                    </button> 
+                    </li>
+                    </ul>
+              </div>
+        </div>
+    </nav>
+    <!--Hero Section -->
+    <section class="mt-5">
+        <div class="container">
+                <div class="d-sm-flex text-dark  justify-content-between align-items-center">
+
+                <div class="col-md-6  col-sm-12   align-items-center">
+                    <h1 class="text-dark mb-1 ">
+                        <span class="text-warning"> Empowering Mothers </span> on their Journey
+                    </h1>
+                    <p class="lead ">
+                        We're making sure mothers have the best educational
+                         support and care to deal with all aspects  of parenting. 
+                    </p>
+                    
+                </div>
+                <!--- Hero Image on Desktop -->
+
+                <div class="col-md-6 col-md-12 Top-side" >
+                    <div class="image-container ">
+                        <img src="images/Parenting.jpg" class="w-50  img-fluid" alt="Parenting">
+                    </div>
+
+                </div>
+
+                
+            
+
+                
+
+                </div>
+        </div>
+    </section>
+    <!---Hero Image on Mobile--->
+    <section class="M0bile-image Top-side2  ">
+        <div class="container">
+            <div class=" col-sm-12  justify-self-center " >
+                <div class="">
+                    <img src="images/Parenting.jpg" class="img-fluid" alt="Parenting">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Program Introduction -->
+    <section class=" p-2  " style="background-color: #ffc1077a;">
+        <div class="container">
+            <div class=" col-md-6 col-sm-12 align-items-center">
+                <h3 class="text-success" >Natal Care Programs </h3>
+                <p class=" my-3  text-justify comic-neue-light " style="color: rgb(26, 65, 28);">
+                            Our program includes medical care, new born care and nutrition,
+                            the role of the spouse, psychological,
+                            emotional, economic, physical, and health planning.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Featured section  -->
+    <div id="data-container" class="data-container"></div>
+      <div id="modules"></div>
+      <div id="videoModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="videoContainer"></div>
+        </div>
+    </div>
+    <!--Other health Manners -->
+    <section class=" p-2  " style="background-color: #ffc1077a;">
+        <div class="container">
+            <div class=" col-md-6 col-sm-12 align-items-center">
+                <h3 class="text-success" >Premium Care</h3>
+                <p class=" my-3  text-justify comic-neue-light " style="color: rgb(26, 65, 28);">
+
+                     Register as a student and get premium features such as personalized care content, 
+                     access to a consultant, medications, nursing assistance and insurance.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!---Call to action buttion  -->
+    <section class="mt-5 ">
+        <div class="container-fluid">
+            <div class="row centered-row d-flex justify-content-center align-items-center">
+            
+                <div type="button" style="text-decoration: none;" class=" bg-success col-6  bgr" type="button" data-bs-toggle="modal" data-bs-target="#selfservice"><h6> Register Now </h6></div>
+                <div type="button" style="text-decoration: none;" class=" bg-warning col-6 bgr" data-bs-toggle="modal" data-bs-target="#exampleModal"><h6> Ask Questions </h6></div>
+            
+            </div>
+        </div>
+    </section>
+    <!---FooterSection-->
+    <footer class="mt-5">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-3">
+    <div class="footer-logo comic-neue-bold text-success">Natal Care</div>
+    <p class="mt-0"> We can be better</p>
+    </div>
+    <div class="col-md-3">
+    <h5>NatalCare</h5>
+    <a href="#" class="footer-link">About Us</a>
+    <a href="#" class="footer-link">Careers</a>
+    <a href="#" class="footer-link">Contact</a>
+    </div>
+    <div class="col-md-3">
+    <h5>Special Thanks</h5>
+    <a href="#" class="footer-link">Images </a>
+   <a href="https://pixabay.com/users/cynthia_groth-2666153/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2747060" class="footer-link">cynthia_groth</a> 
+   <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2747060" class="footer-link">Pixabay</a>
+   <a href="http://www.freepik.com/"class="footer-link">Freepik</a>
+
+
+    </div>
+    <div class="col-md-3">
+    <h5>Follow Us</h5>
+    <div class="footer-social">
+    <a href="#" class="footer-link"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="footer-link"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="footer-link"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#" class="footer-link"><i class="fab fa-instagram"></i></a>
+    </div>
+    </div>
+    </div>
+    <div class="footer-bottom text-center">
+    <p>&copy; 2024 NatalCare. All rights reserved.</p>
+    </div>
+    </div>
+    </footer>
+  
+    
+<!---Discovery Modal-->
+
+
+<!--Register modal -->
+    <div class="modal fade " id="selfservice" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog custom-width modal-dialog-centered">
+            <div class="modal-content custom-width justify-content-center align-items-center">
+            
+                <div class="modal-body card">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="auth-container">
+                                    <h2 id="auth-title">Sign In</h2>
+                                    <form id="auth-form">
+                                        <input type="email" id="email" placeholder="Email" required>
+                                        <input type="password" id="password" placeholder="Password" required>
+                                        <div id="confirm-password-container" style="display: none;">
+                                            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                                        </div>
+                                        <button type="submit" id="auth-button">Sign In</button>
+                                        <p id="toggle-text">Don't have an account? <button type="button" id="toggle-btn" class="btn btn-link">Sign Up</button></p>
+                                        <p id="auth-error" style="display: none; color: red;"></p>
+                                        <p id="auth-success" style="display: none; color: green;"></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+<!---ASkqiestion -->
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5 comic-neue-bold" id="exampleModalLabel">NatalCare</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <img src="images/Parenting.jpg" alt="Contact Image 1" class="contact-img">
+                        <div class="contact-details comic-neue-light">
+                            <h3>Elizabeth Mary Collins</h3>
+                            <p>Chief Matron</p>
+                            <p>Phone:09012011935</p>
+                            <p>
+                                <i class="fab fa-whatsapp"></i> 
+                                <a href="https://wa.me/7043922313" target="_blank" style="text-decoration: none;" class="text-success">Click to Chat  </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-info">
+                        <img src="images/Mother Care.png" alt="Contact Image 2" class="contact-img">
+                        <div class="contact-details comic-neue-light">
+                            <h3>Emmannuel Agara</h3>
+                            <p>Admin Desk</p>
+                            <p>Phone:+23407043922313</p>
+                            <p>
+                                <i class="fab fa-whatsapp"></i> 
+                                <a href="https://wa.me/09012011935" target="_blank" style="text-decoration: none;" class="text-success">Click to Chat  </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+        
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
